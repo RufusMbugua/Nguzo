@@ -6,10 +6,7 @@ This is the template page. It is the root view in which all other mini views are
 
 <?php
 ob_start();
-$sessionEmail = $this -> session -> userdata('email');
-$accessLevel = $this -> session -> userdata('userRights');
-$vehicle = $this -> session -> userdata('vehicle');
-$affiliation = $this -> session -> userdata('affiliation');
+
 ?>
 <html>
 	<head>
